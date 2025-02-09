@@ -13,3 +13,48 @@
  *= require_tree .
  *= require_self
  */
+ body{
+  background-color:  #494949;
+ }
+.navbar-list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ .navbar a{
+  text-decoration: none;
+ }
+.navbar{
+  background-color: #D71616;
+}
+.navbar h1{
+  color: white;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.form-container{
+  background: #F8F9FA;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  text-align: center;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.new a:hover{
+  color: white;
+  background-color:#D71616;
+}
